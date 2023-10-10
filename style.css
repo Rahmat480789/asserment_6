@@ -1,0 +1,433 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+h1, h2, h3, h4, h5, h6{
+    padding: 0%;
+    margin: 0%;
+
+}
+body{
+    font-family: 'Lato', sans-serif;;
+    color: #2d3950;
+}
+
+/* hadder_section */
+
+    .hadder{
+        background-color: #f6f9f9;
+        height: 100px;
+    }
+    .hadder_contant{
+        display: flex;
+        width: 80%;
+        margin: auto;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 0px;
+    }
+    .nav ul{
+        display: flex;
+        justify-content: space-between;
+    }
+    .nav ul li{
+       padding-left: 50px;
+    }
+    .nav ul li a{
+        color: #2d3950;
+        font-size: 18px;
+        text-transform: uppercase;
+       padding: 7px 7px;
+       border-radius: 7px;
+       font-weight: 700;
+       transition: 1s all ease-in-out;
+    }
+    .nav ul li a:hover{
+        background-color: #333;
+        color: #f6f9f9;
+       
+    }
+
+/* hadder_section */
+
+/* banner_section */
+    .banner{
+        background-image: url(./img/banner.png);
+        height: 90vh;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+    }
+    .banner_section{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+    .banner_section h1{
+        text-transform: uppercase;
+        padding: 30px 0;
+        font-size: 100px;
+        color: #ffffff;
+    }
+    .banner_section p{
+        color: #ffffff;
+        padding: 25px;
+        font-size: 18px;
+    }
+    .banner_section span{
+        border: 1px solid ;
+        display: block;
+        color: #15a4fa;
+        
+    }
+    .banner_section button{
+        margin: 30px;
+        background: transparent;
+        border: 1px solid #15a4fa;
+        padding: 15px 30px;
+        color: #ffffff;
+        border-radius: 5px;
+        font-size: 18px;
+        transition: .8s all ease-in-out;
+
+    }
+    .banner_section button:hover{
+        background-color: #15a4fa;
+    }
+    .banner i{
+      position: absolute; 
+      left: 50%;
+      top: 80%;
+      transform: translate(-50% -80%);
+      color: #ffffff;
+      transition: 1s all ease-in-out;
+      animation-name: liton;
+      animation-duration: 1s;
+      animation-timing-function: ease-in-out;
+      animation-iteration-count: infinite;
+    }
+    @keyframes liton{
+        0%{
+            transform: translatey(0px);
+        }
+        50%{
+            transform: translatey(40px);
+        }
+        100%{
+            transform: translatey(0px);
+        }
+    }
+
+/* banner_section */
+/* simple_sectiopn */
+
+    .simple{
+        /* height: 400px; */
+        background-color: #f6f9f9;
+        /* display: flex;
+        align-items: center;
+        justify-content: center; */
+        
+    }
+    .simple_element{
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        padding: 100px;
+        
+       
+    }
+    .simple_element h1{
+        padding-bottom: 30px;
+        font-size: 30px;
+        font-weight: 700;
+
+    }
+    .simple_element p{
+        
+        font-size: 18px;
+    }
+
+    /* desing_section */
+        .design{
+            background-color: #ffffff;
+        }
+        .desing_content{
+            display: flex;
+            justify-content: space-between;
+            width: 80%;
+            margin: auto;
+            padding: 100px 0px;
+        }
+        .cad{
+            text-align: center;
+            padding-left: 10px;
+            transition: .5s all ease-in-out;
+            padding: 50px;
+
+        }
+        .cad:hover{
+            box-shadow: 0px 0px 20px #15a4fa;
+        }
+        .cad p{
+           font-size: 16px;
+           padding-top: 20px;
+        }
+        .cad h4{
+            padding-top: 30px;
+            font-size: 20px;
+        }
+        .cad i{
+           font-size: 40px;
+           border: 1px solid #ffffff;
+           padding: 20px 25px;
+           border-radius: 4px;
+        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#5fc3ff+50,48baff+50,48baff+50,48baff+50,48baff+50 */
+            background: linear-gradient(to right,  #5fc3ff 50%,#48baff 50%,#48baff 50%,#48baff 50%,#48baff 50%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            color: #ffffff;
+        }
+        .cad i:hover{
+         /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#48baff+50,5fc3ff+50 */
+background: linear-gradient(to right,  #48baff 50%,#5fc3ff 50%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+        }
+    /* desing_section */
+
+
+
+    /* galler_section */
+        .gallery{
+            background-color: #f6f9f9;
+        }
+        .gallery_contant{
+            width: 80%;
+            margin: auto;
+        }
+        .gallary_header{
+            text-align: center;
+            padding: 95px 0px;
+        }
+        .gallary_header h1{
+            padding-bottom: 30px;
+            font-size: 30px;
+        }
+        .gallary_header p{
+            font-size: 16px;
+        }
+        .gallery_photo{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding-bottom: 70px;
+           
+        }
+        .gallery_imgs{
+            position: relative;
+            width: 30%;
+            margin-bottom: 70px;
+        }
+        .gallery_imgs img{
+            width: 100%;
+            display: block;
+           
+        }
+        .gallery_imgs::before{
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 0%;
+            width: 100%;
+            background-color: #2cacf8;
+            opacity: .8;
+            transition: .8s all ease-in-out;
+            /* clip-path: polygon(100% 0, 0% 100%, 0 0); */
+        }
+        .gallery_imgs:hover::before{
+            left: 0;
+            top: 0;
+            height: 50%;
+            /* width: 100%; */
+            background-color: #2cacf8;
+            opacity: .6;
+           
+        }
+        .gallery_imgs::after{
+            content: "";
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            height: 0%;
+            width: 100%;
+            background-color: #2cacf8;
+            opacity: .6;
+            transition: .8s all ease-in-out;
+            /* clip-path: polygon(100% 0, 0% 100%, 100% 100%); */
+        }
+        .gallery_imgs:hover::after{
+            right: 0;
+            bottom: 0;
+            height: 50%;
+            /* width: 100%; */
+            background-color: #2cacf8;
+            opacity: .6;
+           
+        }
+        .gallery_imgs:hover .icon{
+            opacity: 1;
+           
+        }
+        .icon{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            transition: .6s all ease-in-out;
+            opacity: 0;
+            z-index: 1000;
+        }
+
+        .icon ul{
+            display: flex;
+        }
+       
+        .icon ul li{
+            margin: 5px;
+        }
+       
+        .icon ul li a{
+            color: white;
+            border: 1px solid white;
+            padding: 8px;
+            border-radius: 3px;
+        }
+        .icon ul li a:hover{
+            color: #5fc3ff;
+            background-color: white;
+        }
+       
+      /* galler_section
+
+      /* from_banner */
+        .from_banner{
+            width: 100%;
+            background: url(./img/from_banner.png);
+            position: relative;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            z-index: 0;
+        }
+        .from_banner::after{
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: .9;
+            background-color: #23283f;
+            z-index: -1;
+
+        }
+        .from_contant{
+            width: 35%;
+            margin: auto;
+        }
+        .from_hedding{
+            text-align: center;
+            padding: 70px 0 30px 0;
+        }
+        .from_hedding h1{
+            font-size: 35px;
+            color: white;
+        }
+        .from_hedding p{
+            font-size: 16px;
+            color: #f6f9f9;
+            margin: 20px 0;
+        }
+        .from_element input{
+            width: 100%;
+            padding: 20px 5px;
+            margin-bottom: 10px;
+            background-color: transparent;
+            border: 1px solid #626262;
+        }
+       .send{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+        padding-bottom: 100px;
+       }
+       .check{
+        display: flex;
+        align-items: center;
+       }
+       .check input{
+        background-color: transparent;
+       }
+       .check p{
+        color: #f6f9f9;
+        margin-left: 10px;
+        font-size: 14px;
+        align-items: center;
+       }
+       .send_button button{
+        background-color: transparent;
+        color: #ffffff;
+        padding: 10px 40px;
+       border: 1px solid #15a4fa;
+       border-radius: 5px;
+       transition: .7s all ease-in-out;
+       }
+       .send_button button:hover{
+        background-color: #15a4fa;
+       }
+      #massage{
+        padding-bottom: 150px;
+      }
+      /* fotter_section */
+      footer{
+       
+        background-color: #ffffff;
+        height: 90px;
+      }
+      .fotter_point{
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        margin: auto;
+        padding: 30px 0px;
+        align-items: center;
+      }
+      .fotter_left p{
+        font-size: 14px;
+        font-weight: 400px;
+        color: #626262;
+      }
+      .fotter_right ul{
+        display: flex;
+      }
+      .fotter_right ul li a{
+        padding-left: 50px;
+      }
+      .fotter_right ul li a i{
+        background-color: #15a4fa;
+        color: #ffffff;
+        font-size: 30px;
+        padding: 8px ;
+        border-radius: 5px;
+        transition: .6s all ease-in-out;
+      }
+      .fotter_right ul li a i:hover{
+        color: #23283f;
+        background-color: #ffffff;
+      }
+     /* fotter_section */
